@@ -1,11 +1,13 @@
 import React from 'react';
 import {GrSearch,GrCart} from 'react-icons/gr'
+import {FaBars} from 'react-icons/fa'
 import logo from './img/AthleticEstateHeaderIcon.jpg'
 
 const Navbar=()=>{
     return (
         <>
-        <nav className='border justify-center text-black-300 flex shadow-xl bg-white-900 font-mulish bg-white sticky top-0 z-20 text-sm'>
+        <nav className='border lg:justify-center text-black-300 flex shadow-xl bg-white-900 font-mulish bg-white sticky top-0 z-20 text-sm'>
+            <a href="" className='inline-block lg:hidden p-3 text-xl mx-2'><FaBars/></a>
         <img src={logo} className='h-12 w-14 p-3 ml-6 flex' alt="" />
             <div className="hidden lg:flex mr-12">
 
